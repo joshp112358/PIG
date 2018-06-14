@@ -122,8 +122,8 @@ function makePlottableArrays(results) {
 }
 
 function drawChart(data) {
-  let dataPlayerOne = data[0];
-  let dataPlayerTwo = data[1];
+  let dataPlayerOne = data[1];
+  let dataPlayerTwo = data[0];
   let maxWins =
     Math.max(...dataPlayerOne) > Math.max(...dataPlayerTwo)
       ? Math.max(...dataPlayerOne)
